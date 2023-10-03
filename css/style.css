@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
 
+
 *{
 
     margin: 0;
@@ -10,12 +11,12 @@
 
 }
 
+
 body {
 
     font-family: 'Poppins', sans-serif;
 
 }
-
 
 
 .menu-navbar ul li{
@@ -30,20 +31,18 @@ body {
     
 }
 
-.menu-navbar ul li a:hover {
 
-    color: rgb(210, 102, 206);
+#navbarNav li a:hover {
+
+    color: rgb(225, 163, 223);
 
 }
 
 
-
-
-
 .header-content {
 
-    height: 70vh;
-    display: flex;
+    height: 55vh;
+    display: block;
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(
@@ -52,30 +51,67 @@ body {
         url(/images/estudio-uñas.jpg);
         background-size: cover;
     color: aliceblue;
-    background-position: center bottom;  
+    background-position: center;  
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
+
 .header-content {
 
     text-align: center;
-    display: block;
-    color: rgb(204, 203, 203);
-
 }
+
 
 .header-content h1 {
 
-    font-size: 75px;
+    font-size: 65px;
     line-height: 80px;
     color: white;
     text-transform: uppercase;
-    margin-bottom: 35px;
-    padding: 100px;
+    font-weight: 800;
+    margin-bottom: 70px;
+    padding-top: 80px;
+
 
 }
+
+
+.header-content p {
+
+    color: #c5c5c5;
+    font-size: 16px;
+    padding: 0 250px;
+    margin-bottom: 25px;
+
+
+}
+
+
+
+
+
+
+
+.btn-1 {
+
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: rgb(225, 163, 223);
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
 
 
 
